@@ -1,0 +1,22 @@
+PODS:
+  - BRYSerialAnimationQueue (1.0.0)
+  - MDCSwipeToChoose (0.2.2)
+  - SSBouncyButton (1.0.4):
+    - BRYSerialAnimationQueue (~> 1.0)
+    - UIColor-Hex (~> 0.1)
+    - UIImage+BetterAdditions (~> 2.0)
+  - UIColor-Hex (0.1.1)
+  - UIImage+BetterAdditions (2.0.1)
+
+DEPENDENCIES:
+  - MDCSwipeToChoose
+  - SSBouncyButton (~> 1.0)
+
+SPEC CHECKSUMS:
+  BRYSerialAnimationQueue: 75feef56345338619a6c2111f2a81de28a59c368
+  MDCSwipeToChoose: 715aefacd3cc884c448fcdc70638c04a3056408c
+  SSBouncyButton: 3cf8d33029b5da5773911299033feb5239c5ddec
+  UIColor-Hex: 77e80f383c6b3a63c5e95a9a4a7f4a71976e38a5
+  UIImage+BetterAdditions: e70bf725163a4c1f54a2cf8389140ecdfc3b632c
+
+COCOAPODS: 0.36.4

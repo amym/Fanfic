@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/BRYSerialAnimationQueue" "${PODS_ROOT}/Headers/Public/MDCSwipeToChoose" "${PODS_ROOT}/Headers/Public/SSBouncyButton" "${PODS_ROOT}/Headers/Public/UIColor-Hex" "${PODS_ROOT}/Headers/Public/UIImage+BetterAdditions"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/BRYSerialAnimationQueue" -isystem "${PODS_ROOT}/Headers/Public/MDCSwipeToChoose" -isystem "${PODS_ROOT}/Headers/Public/SSBouncyButton" -isystem "${PODS_ROOT}/Headers/Public/UIColor-Hex" -isystem "${PODS_ROOT}/Headers/Public/UIImage+BetterAdditions"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-Fanfic-BRYSerialAnimationQueue" -l"Pods-Fanfic-MDCSwipeToChoose" -l"Pods-Fanfic-SSBouncyButton" -l"Pods-Fanfic-UIColor-Hex" -l"Pods-Fanfic-UIImage+BetterAdditions" -framework "Foundation" -framework "QuartzCore" -framework "UIKit"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods

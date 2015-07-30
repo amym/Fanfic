@@ -1,0 +1,1103 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06DABB0F90464DFC214BB5FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A808E533AB304F54A8614DC9 /* UIKit.framework */; };
+		0AF553771F1CBBD0A54DE997 /* Pods-Fanfic-UIColor-Hex-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B030BC35B233346EE997ED /* Pods-Fanfic-UIColor-Hex-dummy.m */; };
+		109D401902BC6A1E645BA7A5 /* MDCSwipeDirection.h in Headers */ = {isa = PBXBuildFile; fileRef = 73430192F888A38DA73669BF /* MDCSwipeDirection.h */; };
+		11EA0D91F093538316EC3D6D /* MDCSwipeToChooseViewOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = D508AC11F62EFE567CD30862 /* MDCSwipeToChooseViewOptions.h */; };
+		121BD8AC3DE8DC107687F304 /* MDCPanState.h in Headers */ = {isa = PBXBuildFile; fileRef = CC04EA57420EBA281B52F0F9 /* MDCPanState.h */; };
+		16F1B23EA1FF76B0D2952DB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFF85E1DC6939003157BBC2 /* Foundation.framework */; };
+		1E8577C894E7FBF494000D5A /* UIView+MDCBorderedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = E197727A63328DD0F70C8076 /* UIView+MDCBorderedLabel.h */; };
+		201BEB9248B91228C361556B /* Pods-Fanfic-SSBouncyButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0B38D54D7506FAEB5060A /* Pods-Fanfic-SSBouncyButton-dummy.m */; };
+		211563DFED150F0F79098DB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFF85E1DC6939003157BBC2 /* Foundation.framework */; };
+		21F4736C270614EF07D27E03 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E5C1DEA3E301961AE2BF8A /* UIColor+Hex.h */; };
+		23D07E1CFA921C6F5274ED26 /* UIImage+BetterAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AB8955B991C4085028F02B /* UIImage+BetterAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		253D34707CD5D980CC6C5787 /* UIView+MDCSwipeToChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2A76F48DE14F3E71411A79 /* UIView+MDCSwipeToChoose.m */; };
+		391C2D4B8EB89189BA7F87DC /* MDCSwipeToChoose.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E85FB4885D5CDFB8E7980E4 /* MDCSwipeToChoose.h */; };
+		4A4FA725CF9D711CFC505E4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFF85E1DC6939003157BBC2 /* Foundation.framework */; };
+		4EE21B8C9807EA12FEA956E1 /* MDCSwipeOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 335A443748630968B768C1B5 /* MDCSwipeOptions.m */; };
+		54556637FCE154B313BD0B30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A808E533AB304F54A8614DC9 /* UIKit.framework */; };
+		5EBB6FFD3F6D5DE6D4BD10D7 /* MDCSwipeToChooseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 983BE8FF4E758C0A62853683 /* MDCSwipeToChooseView.h */; };
+		636AD98DF0BE6050448D510C /* MDCSwipeResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 4695BA4627B6397740D6EDC9 /* MDCSwipeResult.h */; };
+		660DCED69F8D98C804E99B59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFF85E1DC6939003157BBC2 /* Foundation.framework */; };
+		671054E2D9F4F0D18FD13455 /* BRYSerialAnimationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E017195C257D1F4A62524C /* BRYSerialAnimationQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6B9540A5D13B879AC3FF70DE /* MDCSwipeToChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CD26D0859794C1738C1AB3 /* MDCSwipeToChooseView.m */; };
+		6D4F5BFCF27836EBC252C4DE /* UIColor+MDCRGB8Bit.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7E8F0EFE0375A974BF99A2 /* UIColor+MDCRGB8Bit.m */; };
+		71A1878565578DA067AA90DE /* SSBouncyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F40CF515BB3F3FD20B1031 /* SSBouncyButton.m */; };
+		78A338B035005D007C80D911 /* MDCSwipeToChooseDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D109F5C9624DD699BCE72E57 /* MDCSwipeToChooseDelegate.h */; };
+		79B244377EEBD45B2FF5FEF6 /* BRYSerialAnimationQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE549064621A42153CC4665 /* BRYSerialAnimationQueue.h */; };
+		7B36A882DD3D596E6343DD24 /* MDCSwipeOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 76EC5FA7454B6DD6F3815A6F /* MDCSwipeOptions.h */; };
+		7D6BF50B4845DFBC6BB68F2A /* UIView+MDCSwipeToChoose.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F1BE44DB39C9A0D3D527280 /* UIView+MDCSwipeToChoose.h */; };
+		81DDF72B56E10CFC56AF5047 /* Pods-Fanfic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8F3501A78A837A32CD1CD2 /* Pods-Fanfic-dummy.m */; };
+		88CC1B1F133875E1D81544CC /* MDCViewState.h in Headers */ = {isa = PBXBuildFile; fileRef = ECF5B1306355D1514E27F30F /* MDCViewState.h */; };
+		8E326975C9E19CA776DA923C /* UIView+MDCBorderedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7542305D050751BA6903EB98 /* UIView+MDCBorderedLabel.m */; };
+		9A6C36AD9FC156ECA62FEC86 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7BEAA58EF0FDF5E414655A /* QuartzCore.framework */; };
+		9D59FA89253FC0CC2A0EBEEB /* Pods-Fanfic-MDCSwipeToChoose-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B4DBA200F6A9468ADE02A6 /* Pods-Fanfic-MDCSwipeToChoose-dummy.m */; };
+		B29C953E9FB090612AAA7460 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A808E533AB304F54A8614DC9 /* UIKit.framework */; };
+		B5F7D99ED1D0BF09BE5EF10F /* MDCSwipeToChooseViewOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8501F6531458CF2209578EDF /* MDCSwipeToChooseViewOptions.m */; };
+		B7BE01BBAD5ED649B47B9199 /* Pods-Fanfic-BRYSerialAnimationQueue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26838657043D3F1C24DAB09C /* Pods-Fanfic-BRYSerialAnimationQueue-dummy.m */; };
+		B839DAC2B35881EBCBAFB20D /* UIImage+BetterAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 33F8B52C4E73AADC85EE455C /* UIImage+BetterAdditions.h */; };
+		BF4277151D8735F732BCDB1F /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E233918BE31C80EE4849D8B /* UIColor+Hex.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C110436B6E40397BA1769269 /* MDCSwipeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B9FEBCB17BA8CC271A8897 /* MDCSwipeResult.m */; };
+		C139B3EA8802E9FFABF779D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A808E533AB304F54A8614DC9 /* UIKit.framework */; };
+		D44EF1C84FC7A797687CAEDE /* UIColor+MDCRGB8Bit.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7B6F0C4CDF1C0A69645B87 /* UIColor+MDCRGB8Bit.h */; };
+		DACEA220C9530691E39211DE /* MDCViewState.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9E47C56350D0D64C79C77C /* MDCViewState.m */; };
+		DEA34D503BA7A34E13DC41C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFF85E1DC6939003157BBC2 /* Foundation.framework */; };
+		E13795FD7F4F01EC77D86944 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFF85E1DC6939003157BBC2 /* Foundation.framework */; };
+		E76178B0D5266271B9442BAD /* MDCGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 8724CB476205F4387D91462E /* MDCGeometry.m */; };
+		E87C921A32E4A17D3032E181 /* MDCPanState.m in Sources */ = {isa = PBXBuildFile; fileRef = F8285C6322BFCD352BBF0C5D /* MDCPanState.m */; };
+		EB8DC67B0CE13DE8B44DE74A /* Pods-Fanfic-UIImage+BetterAdditions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 055177F8C0E3D4BCCF2D1647 /* Pods-Fanfic-UIImage+BetterAdditions-dummy.m */; };
+		F30D6ADED56D15E2AAF648E9 /* SSBouncyButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B4B22C493B2C28F278CA97 /* SSBouncyButton.h */; };
+		FDFCD7B728FFD5D0353DF821 /* MDCGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 40CF160BA4C8FA2FFE97F0C1 /* MDCGeometry.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0621D0105A76C55DF9479E0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17DC34868F2238D29FB2DF70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FE39181859F8EA684695673;
+			remoteInfo = "Pods-Fanfic-UIColor-Hex";
+		};
+		7DB815D2C23B789AAA17DE89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17DC34868F2238D29FB2DF70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FE39181859F8EA684695673;
+			remoteInfo = "Pods-Fanfic-UIColor-Hex";
+		};
+		97870097FE580F7B720DEFDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17DC34868F2238D29FB2DF70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3ABCEF643799DF7163856F0;
+			remoteInfo = "Pods-Fanfic-UIImage+BetterAdditions";
+		};
+		9E40E99584FB0057C30A0ED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17DC34868F2238D29FB2DF70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34AA2145C1D99BD1A5B88880;
+			remoteInfo = "Pods-Fanfic-BRYSerialAnimationQueue";
+		};
+		B8A3EE6269578E8562EE3412 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17DC34868F2238D29FB2DF70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A8B58504FF346B48D208D34;
+			remoteInfo = "Pods-Fanfic-MDCSwipeToChoose";
+		};
+		BE05E1FD9D60D11EE9F7A142 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17DC34868F2238D29FB2DF70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3ABCEF643799DF7163856F0;
+			remoteInfo = "Pods-Fanfic-UIImage+BetterAdditions";
+		};
+		D56FF87B604DE7B82B794D74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17DC34868F2238D29FB2DF70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34AA2145C1D99BD1A5B88880;
+			remoteInfo = "Pods-Fanfic-BRYSerialAnimationQueue";
+		};
+		FAC10EA7D1A889DD3FDCF746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17DC34868F2238D29FB2DF70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 457B2F506434E2E79656A7E1;
+			remoteInfo = "Pods-Fanfic-SSBouncyButton";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01AC505CD3A298CA3FC6F34A /* libPods-Fanfic-UIColor-Hex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fanfic-UIColor-Hex.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		050197ED2533E8185FC81F64 /* Pods-Fanfic-UIColor-Hex-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fanfic-UIColor-Hex-prefix.pch"; sourceTree = "<group>"; };
+		055177F8C0E3D4BCCF2D1647 /* Pods-Fanfic-UIImage+BetterAdditions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fanfic-UIImage+BetterAdditions-dummy.m"; sourceTree = "<group>"; };
+		0D654042D9284EEB90EFFAE7 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0E233918BE31C80EE4849D8B /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "Classes/UIColor+Hex.m"; sourceTree = "<group>"; };
+		1387431DA4FC5B5E65466CA3 /* Pods-Fanfic-BRYSerialAnimationQueue.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fanfic-BRYSerialAnimationQueue.xcconfig"; sourceTree = "<group>"; };
+		157CD3EE5AD06C22F676B315 /* Pods-Fanfic-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fanfic-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E1674CDFE2D10E42A27C16B /* libPods-Fanfic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fanfic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26838657043D3F1C24DAB09C /* Pods-Fanfic-BRYSerialAnimationQueue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fanfic-BRYSerialAnimationQueue-dummy.m"; sourceTree = "<group>"; };
+		27953D3F7655C33F46C97115 /* libPods-Fanfic-BRYSerialAnimationQueue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fanfic-BRYSerialAnimationQueue.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BFB2EDA44FC318B4C7C631D /* Pods-Fanfic-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fanfic-environment.h"; sourceTree = "<group>"; };
+		2C8C0DFCE43B25981F9B5187 /* Pods-Fanfic-MDCSwipeToChoose-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fanfic-MDCSwipeToChoose-Private.xcconfig"; sourceTree = "<group>"; };
+		335A443748630968B768C1B5 /* MDCSwipeOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSwipeOptions.m; path = MDCSwipeToChoose/Public/Options/MDCSwipeOptions.m; sourceTree = "<group>"; };
+		33F8B52C4E73AADC85EE455C /* UIImage+BetterAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+BetterAdditions.h"; sourceTree = "<group>"; };
+		3CE1D4CDE67CE386F6A965D1 /* Pods-Fanfic-UIImage+BetterAdditions-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fanfic-UIImage+BetterAdditions-Private.xcconfig"; sourceTree = "<group>"; };
+		3CFF85E1DC6939003157BBC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		40CF160BA4C8FA2FFE97F0C1 /* MDCGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCGeometry.h; path = MDCSwipeToChoose/Internal/MDCGeometry.h; sourceTree = "<group>"; };
+		4695BA4627B6397740D6EDC9 /* MDCSwipeResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeResult.h; path = MDCSwipeToChoose/Public/State/MDCSwipeResult.h; sourceTree = "<group>"; };
+		46AB8955B991C4085028F02B /* UIImage+BetterAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BetterAdditions.m"; sourceTree = "<group>"; };
+		4816DDABDA668B711CF289D5 /* Pods-Fanfic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fanfic.release.xcconfig"; sourceTree = "<group>"; };
+		4BE549064621A42153CC4665 /* BRYSerialAnimationQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRYSerialAnimationQueue.h; path = Classes/BRYSerialAnimationQueue.h; sourceTree = "<group>"; };
+		4E1AEF74952EC8AD29BE9586 /* Pods-Fanfic-MDCSwipeToChoose-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fanfic-MDCSwipeToChoose-prefix.pch"; sourceTree = "<group>"; };
+		4F2EA08CFAAAB21783D56C18 /* Pods-Fanfic-SSBouncyButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fanfic-SSBouncyButton-Private.xcconfig"; sourceTree = "<group>"; };
+		5CC0B38D54D7506FAEB5060A /* Pods-Fanfic-SSBouncyButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fanfic-SSBouncyButton-dummy.m"; sourceTree = "<group>"; };
+		6E85FB4885D5CDFB8E7980E4 /* MDCSwipeToChoose.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeToChoose.h; path = MDCSwipeToChoose/Public/MDCSwipeToChoose.h; sourceTree = "<group>"; };
+		73430192F888A38DA73669BF /* MDCSwipeDirection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeDirection.h; path = MDCSwipeToChoose/Public/State/MDCSwipeDirection.h; sourceTree = "<group>"; };
+		7542305D050751BA6903EB98 /* UIView+MDCBorderedLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MDCBorderedLabel.m"; path = "MDCSwipeToChoose/Internal/Views/UIView+MDCBorderedLabel.m"; sourceTree = "<group>"; };
+		75CA254439181D00F3CB9DDA /* Pods-Fanfic-UIColor-Hex.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fanfic-UIColor-Hex.xcconfig"; sourceTree = "<group>"; };
+		76EC5FA7454B6DD6F3815A6F /* MDCSwipeOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeOptions.h; path = MDCSwipeToChoose/Public/Options/MDCSwipeOptions.h; sourceTree = "<group>"; };
+		78B4B22C493B2C28F278CA97 /* SSBouncyButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSBouncyButton.h; path = SSBouncyButton/SSBouncyButton.h; sourceTree = "<group>"; };
+		7F0ECB47419F3CE092FAF8C3 /* Pods-Fanfic-UIImage+BetterAdditions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fanfic-UIImage+BetterAdditions.xcconfig"; sourceTree = "<group>"; };
+		7F7BEAA58EF0FDF5E414655A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		8501F6531458CF2209578EDF /* MDCSwipeToChooseViewOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSwipeToChooseViewOptions.m; path = MDCSwipeToChoose/Public/Options/MDCSwipeToChooseViewOptions.m; sourceTree = "<group>"; };
+		86E5C1DEA3E301961AE2BF8A /* UIColor+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "Classes/UIColor+Hex.h"; sourceTree = "<group>"; };
+		8724CB476205F4387D91462E /* MDCGeometry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCGeometry.m; path = MDCSwipeToChoose/Internal/MDCGeometry.m; sourceTree = "<group>"; };
+		8A9E47C56350D0D64C79C77C /* MDCViewState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCViewState.m; path = MDCSwipeToChoose/Internal/State/MDCViewState.m; sourceTree = "<group>"; };
+		8CBD54ADF2F91CFFC41AC367 /* Pods-Fanfic-BRYSerialAnimationQueue-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fanfic-BRYSerialAnimationQueue-prefix.pch"; sourceTree = "<group>"; };
+		8D97896902DB7E15D2AC1123 /* libPods-Fanfic-UIImage+BetterAdditions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fanfic-UIImage+BetterAdditions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1BE44DB39C9A0D3D527280 /* UIView+MDCSwipeToChoose.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MDCSwipeToChoose.h"; path = "MDCSwipeToChoose/Public/Views/UIView+MDCSwipeToChoose.h"; sourceTree = "<group>"; };
+		935036C30A5C89D5967C4E48 /* Pods-Fanfic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fanfic.debug.xcconfig"; sourceTree = "<group>"; };
+		94B9FEBCB17BA8CC271A8897 /* MDCSwipeResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSwipeResult.m; path = MDCSwipeToChoose/Public/State/MDCSwipeResult.m; sourceTree = "<group>"; };
+		983BE8FF4E758C0A62853683 /* MDCSwipeToChooseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeToChooseView.h; path = MDCSwipeToChoose/Public/Views/MDCSwipeToChooseView.h; sourceTree = "<group>"; };
+		9A814B2799943946FCDBEEC1 /* libPods-Fanfic-MDCSwipeToChoose.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fanfic-MDCSwipeToChoose.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4124F301D335DA393A6A63 /* Pods-Fanfic-UIImage+BetterAdditions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fanfic-UIImage+BetterAdditions-prefix.pch"; sourceTree = "<group>"; };
+		9FC6539BE0EA91189C653481 /* libPods-Fanfic-SSBouncyButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fanfic-SSBouncyButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F40CF515BB3F3FD20B1031 /* SSBouncyButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSBouncyButton.m; path = SSBouncyButton/SSBouncyButton.m; sourceTree = "<group>"; };
+		A43ADB5892D4495A10CEBE4D /* Pods-Fanfic-MDCSwipeToChoose.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fanfic-MDCSwipeToChoose.xcconfig"; sourceTree = "<group>"; };
+		A808E533AB304F54A8614DC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AB7E8F0EFE0375A974BF99A2 /* UIColor+MDCRGB8Bit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MDCRGB8Bit.m"; path = "MDCSwipeToChoose/Internal/UIColor+MDCRGB8Bit.m"; sourceTree = "<group>"; };
+		AD2A76F48DE14F3E71411A79 /* UIView+MDCSwipeToChoose.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MDCSwipeToChoose.m"; path = "MDCSwipeToChoose/Public/Views/UIView+MDCSwipeToChoose.m"; sourceTree = "<group>"; };
+		B4E017195C257D1F4A62524C /* BRYSerialAnimationQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRYSerialAnimationQueue.m; path = Classes/BRYSerialAnimationQueue.m; sourceTree = "<group>"; };
+		C1469A86B40925BC0B146F30 /* Pods-Fanfic-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fanfic-resources.sh"; sourceTree = "<group>"; };
+		CB8F3501A78A837A32CD1CD2 /* Pods-Fanfic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fanfic-dummy.m"; sourceTree = "<group>"; };
+		CC04EA57420EBA281B52F0F9 /* MDCPanState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCPanState.h; path = MDCSwipeToChoose/Public/State/MDCPanState.h; sourceTree = "<group>"; };
+		D109F5C9624DD699BCE72E57 /* MDCSwipeToChooseDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeToChooseDelegate.h; path = MDCSwipeToChoose/Public/Views/MDCSwipeToChooseDelegate.h; sourceTree = "<group>"; };
+		D2B4DBA200F6A9468ADE02A6 /* Pods-Fanfic-MDCSwipeToChoose-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fanfic-MDCSwipeToChoose-dummy.m"; sourceTree = "<group>"; };
+		D508AC11F62EFE567CD30862 /* MDCSwipeToChooseViewOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeToChooseViewOptions.h; path = MDCSwipeToChoose/Public/Options/MDCSwipeToChooseViewOptions.h; sourceTree = "<group>"; };
+		DA5D655A8F2508DDCFB013AE /* Pods-Fanfic-SSBouncyButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fanfic-SSBouncyButton.xcconfig"; sourceTree = "<group>"; };
+		DD7B6F0C4CDF1C0A69645B87 /* UIColor+MDCRGB8Bit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+MDCRGB8Bit.h"; path = "MDCSwipeToChoose/Internal/UIColor+MDCRGB8Bit.h"; sourceTree = "<group>"; };
+		DF394BB2A3CA0A00A933B88F /* Pods-Fanfic-BRYSerialAnimationQueue-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fanfic-BRYSerialAnimationQueue-Private.xcconfig"; sourceTree = "<group>"; };
+		E197727A63328DD0F70C8076 /* UIView+MDCBorderedLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MDCBorderedLabel.h"; path = "MDCSwipeToChoose/Internal/Views/UIView+MDCBorderedLabel.h"; sourceTree = "<group>"; };
+		E1C858C42A11733131465B0E /* Pods-Fanfic-SSBouncyButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fanfic-SSBouncyButton-prefix.pch"; sourceTree = "<group>"; };
+		E2B030BC35B233346EE997ED /* Pods-Fanfic-UIColor-Hex-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fanfic-UIColor-Hex-dummy.m"; sourceTree = "<group>"; };
+		E3CD26D0859794C1738C1AB3 /* MDCSwipeToChooseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSwipeToChooseView.m; path = MDCSwipeToChoose/Public/Views/MDCSwipeToChooseView.m; sourceTree = "<group>"; };
+		ECDEEE35D5756F6AAE874654 /* Pods-Fanfic-UIColor-Hex-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fanfic-UIColor-Hex-Private.xcconfig"; sourceTree = "<group>"; };
+		ECF5B1306355D1514E27F30F /* MDCViewState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCViewState.h; path = MDCSwipeToChoose/Internal/State/MDCViewState.h; sourceTree = "<group>"; };
+		F63E0A0F40CF7E3965F4AC56 /* Pods-Fanfic-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Fanfic-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F8285C6322BFCD352BBF0C5D /* MDCPanState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCPanState.m; path = MDCSwipeToChoose/Public/State/MDCPanState.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4769EE52C899123D342AA8E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F1B23EA1FF76B0D2952DB4 /* Foundation.framework in Frameworks */,
+				9A6C36AD9FC156ECA62FEC86 /* QuartzCore.framework in Frameworks */,
+				06DABB0F90464DFC214BB5FE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638F6AABAB9FB8F295D871AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211563DFED150F0F79098DB4 /* Foundation.framework in Frameworks */,
+				C139B3EA8802E9FFABF779D8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68EA9D0F6B418B5224883986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E13795FD7F4F01EC77D86944 /* Foundation.framework in Frameworks */,
+				B29C953E9FB090612AAA7460 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A29E1F207A6ABC91215AE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660DCED69F8D98C804E99B59 /* Foundation.framework in Frameworks */,
+				54556637FCE154B313BD0B30 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0779E965C90A5C0795BB9A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA34D503BA7A34E13DC41C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49DE16D2661610A0CBC7D12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4FA725CF9D711CFC505E4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2369A616B32D76008C212491 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E1674CDFE2D10E42A27C16B /* libPods-Fanfic.a */,
+				27953D3F7655C33F46C97115 /* libPods-Fanfic-BRYSerialAnimationQueue.a */,
+				9A814B2799943946FCDBEEC1 /* libPods-Fanfic-MDCSwipeToChoose.a */,
+				9FC6539BE0EA91189C653481 /* libPods-Fanfic-SSBouncyButton.a */,
+				01AC505CD3A298CA3FC6F34A /* libPods-Fanfic-UIColor-Hex.a */,
+				8D97896902DB7E15D2AC1123 /* libPods-Fanfic-UIImage+BetterAdditions.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DF7F435FC668702F51F1EEB /* SSBouncyButton */ = {
+			isa = PBXGroup;
+			children = (
+				78B4B22C493B2C28F278CA97 /* SSBouncyButton.h */,
+				A0F40CF515BB3F3FD20B1031 /* SSBouncyButton.m */,
+				844215E15741C2E1A416DDFA /* Support Files */,
+			);
+			path = SSBouncyButton;
+			sourceTree = "<group>";
+		};
+		4BCED6816E7CA4C5D16F68A7 = {
+			isa = PBXGroup;
+			children = (
+				0D654042D9284EEB90EFFAE7 /* Podfile */,
+				8FFA4AD9F9595ACEF7B2D2E0 /* Frameworks */,
+				9D33603F0629F7C35BDE2E43 /* Pods */,
+				2369A616B32D76008C212491 /* Products */,
+				A835E291344F14A18760FCEC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		4FB862DD7720F49FA29ACEB7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3CFF85E1DC6939003157BBC2 /* Foundation.framework */,
+				7F7BEAA58EF0FDF5E414655A /* QuartzCore.framework */,
+				A808E533AB304F54A8614DC9 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7A8C779C4681E1E19679D6F8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F0ECB47419F3CE092FAF8C3 /* Pods-Fanfic-UIImage+BetterAdditions.xcconfig */,
+				3CE1D4CDE67CE386F6A965D1 /* Pods-Fanfic-UIImage+BetterAdditions-Private.xcconfig */,
+				055177F8C0E3D4BCCF2D1647 /* Pods-Fanfic-UIImage+BetterAdditions-dummy.m */,
+				9B4124F301D335DA393A6A63 /* Pods-Fanfic-UIImage+BetterAdditions-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Fanfic-UIImage+BetterAdditions";
+			sourceTree = "<group>";
+		};
+		844215E15741C2E1A416DDFA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA5D655A8F2508DDCFB013AE /* Pods-Fanfic-SSBouncyButton.xcconfig */,
+				4F2EA08CFAAAB21783D56C18 /* Pods-Fanfic-SSBouncyButton-Private.xcconfig */,
+				5CC0B38D54D7506FAEB5060A /* Pods-Fanfic-SSBouncyButton-dummy.m */,
+				E1C858C42A11733131465B0E /* Pods-Fanfic-SSBouncyButton-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Fanfic-SSBouncyButton";
+			sourceTree = "<group>";
+		};
+		8FFA4AD9F9595ACEF7B2D2E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FB862DD7720F49FA29ACEB7 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A1DFC61D210B693D239722D /* UIImage+BetterAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				33F8B52C4E73AADC85EE455C /* UIImage+BetterAdditions.h */,
+				46AB8955B991C4085028F02B /* UIImage+BetterAdditions.m */,
+				7A8C779C4681E1E19679D6F8 /* Support Files */,
+			);
+			path = "UIImage+BetterAdditions";
+			sourceTree = "<group>";
+		};
+		9D33603F0629F7C35BDE2E43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8B14DDD89D13A3BD92058CA /* BRYSerialAnimationQueue */,
+				D7F7DE2FF05F40B8DE7BD826 /* MDCSwipeToChoose */,
+				2DF7F435FC668702F51F1EEB /* SSBouncyButton */,
+				C6D0B1D0B08D642DCCD09376 /* UIColor-Hex */,
+				9A1DFC61D210B693D239722D /* UIImage+BetterAdditions */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9E8CD7399B6F5C59DD2BA69D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75CA254439181D00F3CB9DDA /* Pods-Fanfic-UIColor-Hex.xcconfig */,
+				ECDEEE35D5756F6AAE874654 /* Pods-Fanfic-UIColor-Hex-Private.xcconfig */,
+				E2B030BC35B233346EE997ED /* Pods-Fanfic-UIColor-Hex-dummy.m */,
+				050197ED2533E8185FC81F64 /* Pods-Fanfic-UIColor-Hex-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Fanfic-UIColor-Hex";
+			sourceTree = "<group>";
+		};
+		A13C5CF2537E23408A3251BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A43ADB5892D4495A10CEBE4D /* Pods-Fanfic-MDCSwipeToChoose.xcconfig */,
+				2C8C0DFCE43B25981F9B5187 /* Pods-Fanfic-MDCSwipeToChoose-Private.xcconfig */,
+				D2B4DBA200F6A9468ADE02A6 /* Pods-Fanfic-MDCSwipeToChoose-dummy.m */,
+				4E1AEF74952EC8AD29BE9586 /* Pods-Fanfic-MDCSwipeToChoose-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Fanfic-MDCSwipeToChoose";
+			sourceTree = "<group>";
+		};
+		A835E291344F14A18760FCEC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D347019AF4AC293005BA0011 /* Pods-Fanfic */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B8B14DDD89D13A3BD92058CA /* BRYSerialAnimationQueue */ = {
+			isa = PBXGroup;
+			children = (
+				4BE549064621A42153CC4665 /* BRYSerialAnimationQueue.h */,
+				B4E017195C257D1F4A62524C /* BRYSerialAnimationQueue.m */,
+				F2B236D789A9E5B665F04594 /* Support Files */,
+			);
+			path = BRYSerialAnimationQueue;
+			sourceTree = "<group>";
+		};
+		C6D0B1D0B08D642DCCD09376 /* UIColor-Hex */ = {
+			isa = PBXGroup;
+			children = (
+				86E5C1DEA3E301961AE2BF8A /* UIColor+Hex.h */,
+				0E233918BE31C80EE4849D8B /* UIColor+Hex.m */,
+				9E8CD7399B6F5C59DD2BA69D /* Support Files */,
+			);
+			path = "UIColor-Hex";
+			sourceTree = "<group>";
+		};
+		D347019AF4AC293005BA0011 /* Pods-Fanfic */ = {
+			isa = PBXGroup;
+			children = (
+				F63E0A0F40CF7E3965F4AC56 /* Pods-Fanfic-acknowledgements.markdown */,
+				157CD3EE5AD06C22F676B315 /* Pods-Fanfic-acknowledgements.plist */,
+				CB8F3501A78A837A32CD1CD2 /* Pods-Fanfic-dummy.m */,
+				2BFB2EDA44FC318B4C7C631D /* Pods-Fanfic-environment.h */,
+				C1469A86B40925BC0B146F30 /* Pods-Fanfic-resources.sh */,
+				935036C30A5C89D5967C4E48 /* Pods-Fanfic.debug.xcconfig */,
+				4816DDABDA668B711CF289D5 /* Pods-Fanfic.release.xcconfig */,
+			);
+			name = "Pods-Fanfic";
+			path = "Target Support Files/Pods-Fanfic";
+			sourceTree = "<group>";
+		};
+		D7F7DE2FF05F40B8DE7BD826 /* MDCSwipeToChoose */ = {
+			isa = PBXGroup;
+			children = (
+				40CF160BA4C8FA2FFE97F0C1 /* MDCGeometry.h */,
+				8724CB476205F4387D91462E /* MDCGeometry.m */,
+				CC04EA57420EBA281B52F0F9 /* MDCPanState.h */,
+				F8285C6322BFCD352BBF0C5D /* MDCPanState.m */,
+				73430192F888A38DA73669BF /* MDCSwipeDirection.h */,
+				76EC5FA7454B6DD6F3815A6F /* MDCSwipeOptions.h */,
+				335A443748630968B768C1B5 /* MDCSwipeOptions.m */,
+				4695BA4627B6397740D6EDC9 /* MDCSwipeResult.h */,
+				94B9FEBCB17BA8CC271A8897 /* MDCSwipeResult.m */,
+				6E85FB4885D5CDFB8E7980E4 /* MDCSwipeToChoose.h */,
+				D109F5C9624DD699BCE72E57 /* MDCSwipeToChooseDelegate.h */,
+				983BE8FF4E758C0A62853683 /* MDCSwipeToChooseView.h */,
+				E3CD26D0859794C1738C1AB3 /* MDCSwipeToChooseView.m */,
+				D508AC11F62EFE567CD30862 /* MDCSwipeToChooseViewOptions.h */,
+				8501F6531458CF2209578EDF /* MDCSwipeToChooseViewOptions.m */,
+				ECF5B1306355D1514E27F30F /* MDCViewState.h */,
+				8A9E47C56350D0D64C79C77C /* MDCViewState.m */,
+				DD7B6F0C4CDF1C0A69645B87 /* UIColor+MDCRGB8Bit.h */,
+				AB7E8F0EFE0375A974BF99A2 /* UIColor+MDCRGB8Bit.m */,
+				E197727A63328DD0F70C8076 /* UIView+MDCBorderedLabel.h */,
+				7542305D050751BA6903EB98 /* UIView+MDCBorderedLabel.m */,
+				8F1BE44DB39C9A0D3D527280 /* UIView+MDCSwipeToChoose.h */,
+				AD2A76F48DE14F3E71411A79 /* UIView+MDCSwipeToChoose.m */,
+				A13C5CF2537E23408A3251BF /* Support Files */,
+			);
+			path = MDCSwipeToChoose;
+			sourceTree = "<group>";
+		};
+		F2B236D789A9E5B665F04594 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1387431DA4FC5B5E65466CA3 /* Pods-Fanfic-BRYSerialAnimationQueue.xcconfig */,
+				DF394BB2A3CA0A00A933B88F /* Pods-Fanfic-BRYSerialAnimationQueue-Private.xcconfig */,
+				26838657043D3F1C24DAB09C /* Pods-Fanfic-BRYSerialAnimationQueue-dummy.m */,
+				8CBD54ADF2F91CFFC41AC367 /* Pods-Fanfic-BRYSerialAnimationQueue-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Fanfic-BRYSerialAnimationQueue";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1ED31DF6C9B9B9BF5C39041E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B839DAC2B35881EBCBAFB20D /* UIImage+BetterAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC45A531367D6C6C37B7EBC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDFCD7B728FFD5D0353DF821 /* MDCGeometry.h in Headers */,
+				121BD8AC3DE8DC107687F304 /* MDCPanState.h in Headers */,
+				109D401902BC6A1E645BA7A5 /* MDCSwipeDirection.h in Headers */,
+				7B36A882DD3D596E6343DD24 /* MDCSwipeOptions.h in Headers */,
+				636AD98DF0BE6050448D510C /* MDCSwipeResult.h in Headers */,
+				391C2D4B8EB89189BA7F87DC /* MDCSwipeToChoose.h in Headers */,
+				78A338B035005D007C80D911 /* MDCSwipeToChooseDelegate.h in Headers */,
+				5EBB6FFD3F6D5DE6D4BD10D7 /* MDCSwipeToChooseView.h in Headers */,
+				11EA0D91F093538316EC3D6D /* MDCSwipeToChooseViewOptions.h in Headers */,
+				88CC1B1F133875E1D81544CC /* MDCViewState.h in Headers */,
+				D44EF1C84FC7A797687CAEDE /* UIColor+MDCRGB8Bit.h in Headers */,
+				1E8577C894E7FBF494000D5A /* UIView+MDCBorderedLabel.h in Headers */,
+				7D6BF50B4845DFBC6BB68F2A /* UIView+MDCSwipeToChoose.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3614F0D1971B6EAAF77D2EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30D6ADED56D15E2AAF648E9 /* SSBouncyButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C211EEDE00B767C9CA4CE731 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B244377EEBD45B2FF5FEF6 /* BRYSerialAnimationQueue.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7589DCCB496883A97A4A425 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F4736C270614EF07D27E03 /* UIColor+Hex.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		34AA2145C1D99BD1A5B88880 /* Pods-Fanfic-BRYSerialAnimationQueue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 386C22F1C12C17866D41DA87 /* Build configuration list for PBXNativeTarget "Pods-Fanfic-BRYSerialAnimationQueue" */;
+			buildPhases = (
+				C39059197412E7242DDDA3A0 /* Sources */,
+				638F6AABAB9FB8F295D871AD /* Frameworks */,
+				C211EEDE00B767C9CA4CE731 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Fanfic-BRYSerialAnimationQueue";
+			productName = "Pods-Fanfic-BRYSerialAnimationQueue";
+			productReference = 27953D3F7655C33F46C97115 /* libPods-Fanfic-BRYSerialAnimationQueue.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		457B2F506434E2E79656A7E1 /* Pods-Fanfic-SSBouncyButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E22C530349BCC1C7CF1CBB18 /* Build configuration list for PBXNativeTarget "Pods-Fanfic-SSBouncyButton" */;
+			buildPhases = (
+				C6158EB59FDD183BF0C635CE /* Sources */,
+				4769EE52C899123D342AA8E9 /* Frameworks */,
+				B3614F0D1971B6EAAF77D2EC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				903FD1B40251111C16DADA29 /* PBXTargetDependency */,
+				F9AB343E58E6E3AFB27D6E1A /* PBXTargetDependency */,
+				0129E202EA46B63672831B18 /* PBXTargetDependency */,
+			);
+			name = "Pods-Fanfic-SSBouncyButton";
+			productName = "Pods-Fanfic-SSBouncyButton";
+			productReference = 9FC6539BE0EA91189C653481 /* libPods-Fanfic-SSBouncyButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6FE39181859F8EA684695673 /* Pods-Fanfic-UIColor-Hex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F631DA50CFDEDE9BC373953 /* Build configuration list for PBXNativeTarget "Pods-Fanfic-UIColor-Hex" */;
+			buildPhases = (
+				28B8551050AC01437078D142 /* Sources */,
+				B49DE16D2661610A0CBC7D12 /* Frameworks */,
+				D7589DCCB496883A97A4A425 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Fanfic-UIColor-Hex";
+			productName = "Pods-Fanfic-UIColor-Hex";
+			productReference = 01AC505CD3A298CA3FC6F34A /* libPods-Fanfic-UIColor-Hex.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7A8B58504FF346B48D208D34 /* Pods-Fanfic-MDCSwipeToChoose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F2287B45C919FC4DC6F18E /* Build configuration list for PBXNativeTarget "Pods-Fanfic-MDCSwipeToChoose" */;
+			buildPhases = (
+				92410295D9864E1CFEC4DAB8 /* Sources */,
+				68EA9D0F6B418B5224883986 /* Frameworks */,
+				5FC45A531367D6C6C37B7EBC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Fanfic-MDCSwipeToChoose";
+			productName = "Pods-Fanfic-MDCSwipeToChoose";
+			productReference = 9A814B2799943946FCDBEEC1 /* libPods-Fanfic-MDCSwipeToChoose.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A3ABCEF643799DF7163856F0 /* Pods-Fanfic-UIImage+BetterAdditions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A6BBB56BD5CEFA76509DD0D /* Build configuration list for PBXNativeTarget "Pods-Fanfic-UIImage+BetterAdditions" */;
+			buildPhases = (
+				72FF3D7D6D6D76A6C3ED2EF2 /* Sources */,
+				84A29E1F207A6ABC91215AE3 /* Frameworks */,
+				1ED31DF6C9B9B9BF5C39041E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Fanfic-UIImage+BetterAdditions";
+			productName = "Pods-Fanfic-UIImage+BetterAdditions";
+			productReference = 8D97896902DB7E15D2AC1123 /* libPods-Fanfic-UIImage+BetterAdditions.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BC5E7BE34C47520C648F2158 /* Pods-Fanfic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11E524C2DA6921212EA1A471 /* Build configuration list for PBXNativeTarget "Pods-Fanfic" */;
+			buildPhases = (
+				9EF5CE13EEEBE1C4C8E7E702 /* Sources */,
+				A0779E965C90A5C0795BB9A1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A6A249DCECD5682195B6293 /* PBXTargetDependency */,
+				022D37D6EEC3F949CD46474F /* PBXTargetDependency */,
+				6ECFCECDE116F683E266DD5F /* PBXTargetDependency */,
+				60380AA5FDC085045A4E0659 /* PBXTargetDependency */,
+				9E47947A3CB2F8EB1CE17B47 /* PBXTargetDependency */,
+			);
+			name = "Pods-Fanfic";
+			productName = "Pods-Fanfic";
+			productReference = 1E1674CDFE2D10E42A27C16B /* libPods-Fanfic.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17DC34868F2238D29FB2DF70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = B4B8BD810D971785B6A624A8 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4BCED6816E7CA4C5D16F68A7;
+			productRefGroup = 2369A616B32D76008C212491 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC5E7BE34C47520C648F2158 /* Pods-Fanfic */,
+				34AA2145C1D99BD1A5B88880 /* Pods-Fanfic-BRYSerialAnimationQueue */,
+				7A8B58504FF346B48D208D34 /* Pods-Fanfic-MDCSwipeToChoose */,
+				457B2F506434E2E79656A7E1 /* Pods-Fanfic-SSBouncyButton */,
+				6FE39181859F8EA684695673 /* Pods-Fanfic-UIColor-Hex */,
+				A3ABCEF643799DF7163856F0 /* Pods-Fanfic-UIImage+BetterAdditions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28B8551050AC01437078D142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF553771F1CBBD0A54DE997 /* Pods-Fanfic-UIColor-Hex-dummy.m in Sources */,
+				BF4277151D8735F732BCDB1F /* UIColor+Hex.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72FF3D7D6D6D76A6C3ED2EF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8DC67B0CE13DE8B44DE74A /* Pods-Fanfic-UIImage+BetterAdditions-dummy.m in Sources */,
+				23D07E1CFA921C6F5274ED26 /* UIImage+BetterAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92410295D9864E1CFEC4DAB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76178B0D5266271B9442BAD /* MDCGeometry.m in Sources */,
+				E87C921A32E4A17D3032E181 /* MDCPanState.m in Sources */,
+				4EE21B8C9807EA12FEA956E1 /* MDCSwipeOptions.m in Sources */,
+				C110436B6E40397BA1769269 /* MDCSwipeResult.m in Sources */,
+				6B9540A5D13B879AC3FF70DE /* MDCSwipeToChooseView.m in Sources */,
+				B5F7D99ED1D0BF09BE5EF10F /* MDCSwipeToChooseViewOptions.m in Sources */,
+				DACEA220C9530691E39211DE /* MDCViewState.m in Sources */,
+				9D59FA89253FC0CC2A0EBEEB /* Pods-Fanfic-MDCSwipeToChoose-dummy.m in Sources */,
+				6D4F5BFCF27836EBC252C4DE /* UIColor+MDCRGB8Bit.m in Sources */,
+				8E326975C9E19CA776DA923C /* UIView+MDCBorderedLabel.m in Sources */,
+				253D34707CD5D980CC6C5787 /* UIView+MDCSwipeToChoose.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EF5CE13EEEBE1C4C8E7E702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DDF72B56E10CFC56AF5047 /* Pods-Fanfic-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39059197412E7242DDDA3A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671054E2D9F4F0D18FD13455 /* BRYSerialAnimationQueue.m in Sources */,
+				B7BE01BBAD5ED649B47B9199 /* Pods-Fanfic-BRYSerialAnimationQueue-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6158EB59FDD183BF0C635CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201BEB9248B91228C361556B /* Pods-Fanfic-SSBouncyButton-dummy.m in Sources */,
+				71A1878565578DA067AA90DE /* SSBouncyButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0129E202EA46B63672831B18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Fanfic-UIImage+BetterAdditions";
+			target = A3ABCEF643799DF7163856F0 /* Pods-Fanfic-UIImage+BetterAdditions */;
+			targetProxy = 97870097FE580F7B720DEFDA /* PBXContainerItemProxy */;
+		};
+		022D37D6EEC3F949CD46474F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Fanfic-MDCSwipeToChoose";
+			target = 7A8B58504FF346B48D208D34 /* Pods-Fanfic-MDCSwipeToChoose */;
+			targetProxy = B8A3EE6269578E8562EE3412 /* PBXContainerItemProxy */;
+		};
+		0A6A249DCECD5682195B6293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Fanfic-BRYSerialAnimationQueue";
+			target = 34AA2145C1D99BD1A5B88880 /* Pods-Fanfic-BRYSerialAnimationQueue */;
+			targetProxy = 9E40E99584FB0057C30A0ED5 /* PBXContainerItemProxy */;
+		};
+		60380AA5FDC085045A4E0659 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Fanfic-UIColor-Hex";
+			target = 6FE39181859F8EA684695673 /* Pods-Fanfic-UIColor-Hex */;
+			targetProxy = 0621D0105A76C55DF9479E0B /* PBXContainerItemProxy */;
+		};
+		6ECFCECDE116F683E266DD5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Fanfic-SSBouncyButton";
+			target = 457B2F506434E2E79656A7E1 /* Pods-Fanfic-SSBouncyButton */;
+			targetProxy = FAC10EA7D1A889DD3FDCF746 /* PBXContainerItemProxy */;
+		};
+		903FD1B40251111C16DADA29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Fanfic-BRYSerialAnimationQueue";
+			target = 34AA2145C1D99BD1A5B88880 /* Pods-Fanfic-BRYSerialAnimationQueue */;
+			targetProxy = D56FF87B604DE7B82B794D74 /* PBXContainerItemProxy */;
+		};
+		9E47947A3CB2F8EB1CE17B47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Fanfic-UIImage+BetterAdditions";
+			target = A3ABCEF643799DF7163856F0 /* Pods-Fanfic-UIImage+BetterAdditions */;
+			targetProxy = BE05E1FD9D60D11EE9F7A142 /* PBXContainerItemProxy */;
+		};
+		F9AB343E58E6E3AFB27D6E1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Fanfic-UIColor-Hex";
+			target = 6FE39181859F8EA684695673 /* Pods-Fanfic-UIColor-Hex */;
+			targetProxy = 7DB815D2C23B789AAA17DE89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02ED5FB031CE83CF0C1E97A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07AE2B39551DD62DB9596E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CE1D4CDE67CE386F6A965D1 /* Pods-Fanfic-UIImage+BetterAdditions-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Fanfic-UIImage+BetterAdditions/Pods-Fanfic-UIImage+BetterAdditions-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		239AE6F4CB7BE4D06321CEA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C8C0DFCE43B25981F9B5187 /* Pods-Fanfic-MDCSwipeToChoose-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Fanfic-MDCSwipeToChoose/Pods-Fanfic-MDCSwipeToChoose-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2969AEB206CE225FE8B34CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF394BB2A3CA0A00A933B88F /* Pods-Fanfic-BRYSerialAnimationQueue-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Fanfic-BRYSerialAnimationQueue/Pods-Fanfic-BRYSerialAnimationQueue-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		29A3837D4B32D7F48DE68C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F2EA08CFAAAB21783D56C18 /* Pods-Fanfic-SSBouncyButton-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Fanfic-SSBouncyButton/Pods-Fanfic-SSBouncyButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		52E8BDEEC0A3F4A4FFD3044C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECDEEE35D5756F6AAE874654 /* Pods-Fanfic-UIColor-Hex-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Fanfic-UIColor-Hex/Pods-Fanfic-UIColor-Hex-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		64B0003F42DB3A893AB38793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 935036C30A5C89D5967C4E48 /* Pods-Fanfic.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		69A8E181DFE023C9F55E85F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECDEEE35D5756F6AAE874654 /* Pods-Fanfic-UIColor-Hex-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Fanfic-UIColor-Hex/Pods-Fanfic-UIColor-Hex-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7010709A59F56D6B9333C8FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C8C0DFCE43B25981F9B5187 /* Pods-Fanfic-MDCSwipeToChoose-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Fanfic-MDCSwipeToChoose/Pods-Fanfic-MDCSwipeToChoose-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		749F0C2CDC2B4D798ACD2891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4816DDABDA668B711CF289D5 /* Pods-Fanfic.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		98537F9EDD9EC62432013215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CE1D4CDE67CE386F6A965D1 /* Pods-Fanfic-UIImage+BetterAdditions-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Fanfic-UIImage+BetterAdditions/Pods-Fanfic-UIImage+BetterAdditions-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A29BF6FB88CFC5014BEB5749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D12CE86418E6D5C2182BB56C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F2EA08CFAAAB21783D56C18 /* Pods-Fanfic-SSBouncyButton-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Fanfic-SSBouncyButton/Pods-Fanfic-SSBouncyButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EAB4FFEB7E8556D57C8AC917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF394BB2A3CA0A00A933B88F /* Pods-Fanfic-BRYSerialAnimationQueue-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Fanfic-BRYSerialAnimationQueue/Pods-Fanfic-BRYSerialAnimationQueue-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11E524C2DA6921212EA1A471 /* Build configuration list for PBXNativeTarget "Pods-Fanfic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B0003F42DB3A893AB38793 /* Debug */,
+				749F0C2CDC2B4D798ACD2891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F631DA50CFDEDE9BC373953 /* Build configuration list for PBXNativeTarget "Pods-Fanfic-UIColor-Hex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A8E181DFE023C9F55E85F3 /* Debug */,
+				52E8BDEEC0A3F4A4FFD3044C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23F2287B45C919FC4DC6F18E /* Build configuration list for PBXNativeTarget "Pods-Fanfic-MDCSwipeToChoose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				239AE6F4CB7BE4D06321CEA7 /* Debug */,
+				7010709A59F56D6B9333C8FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A6BBB56BD5CEFA76509DD0D /* Build configuration list for PBXNativeTarget "Pods-Fanfic-UIImage+BetterAdditions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07AE2B39551DD62DB9596E5D /* Debug */,
+				98537F9EDD9EC62432013215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		386C22F1C12C17866D41DA87 /* Build configuration list for PBXNativeTarget "Pods-Fanfic-BRYSerialAnimationQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2969AEB206CE225FE8B34CEA /* Debug */,
+				EAB4FFEB7E8556D57C8AC917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4B8BD810D971785B6A624A8 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29BF6FB88CFC5014BEB5749 /* Debug */,
+				02ED5FB031CE83CF0C1E97A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E22C530349BCC1C7CF1CBB18 /* Build configuration list for PBXNativeTarget "Pods-Fanfic-SSBouncyButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12CE86418E6D5C2182BB56C /* Debug */,
+				29A3837D4B32D7F48DE68C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17DC34868F2238D29FB2DF70 /* Project object */;
+}
